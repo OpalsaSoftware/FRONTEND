@@ -6,6 +6,5 @@ const instance = axios.create({
   withCredentials: true // Permitir que Axios envíe cookies con las solicitudes
 });
 
-// Interceptor para añadir el token en cada solicitu
 
 export default instance;
